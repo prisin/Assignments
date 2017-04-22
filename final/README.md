@@ -17,8 +17,8 @@
 1. Read the data from reviews.csv file stored in data folder and put it in a dataframe.
 2. Get all the reviewer names from reviewer name column and remove all the rows with no name.
 3. Get all the listings of each reviewer and get the frequent used listing of each reviewer.
-4. Find out which listing is mstly used by each reviewer.
-5. Get the location which is most frequent used by each reviewer.
+4. Get the location which is most frequent used by reviewer who gave max reviews.
+5. Plot graph of top reviewers and their count.
 
 
 # Analysis 3
@@ -41,7 +41,11 @@
 
 # Analysis 5
 1. Read the data from listings.csv file stored in data folder and put it in a dataframe.
-2. Convert all string price into float to calculate mean of price.
-2. Get the mean price of all the listings by each host.
-3. Get the count of each neighbourhood and plot it in graph.
-4. Get the mean price of each neighbourhood and plot it in graph.
+2. Read the data from reviews.csv file stored in data folder and put it in a dataframe.
+2. Get all the listings id which are present both in listings.csv and reviews.csv
+3. Get all the words used in summary by the host for the common listings.
+4. Revome the non alpha words and stop words from the list.
+5. Get all the words used in reviews by the reviewer for the common listings.
+6. Remove the non alpha words and stop words from the list.
+7. Match the common words between the summary given by host and the review received from reviewer.
+8. Now we put the result in csv file representing each listing id comment and summary similarity.
