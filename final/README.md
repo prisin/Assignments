@@ -47,14 +47,14 @@
 # Analysis 5
 1. Read the data from listings.csv file stored in data folder and put it in a dataframe.
 2. Read the data from reviews.csv file stored in data folder and put it in a dataframe.
-2. Get all the listings id which are present both in listings.csv and reviews.csv
-3. Get all the words used in summary by the host for the common listings.
-4. Revome the non alpha words and stop words from the list.
-5. Get all the words used in reviews by the reviewer for the common listings.
-6. Remove the non alpha words and stop words from the list.
-7. Match the common words between the summary given by host and the review received from reviewer.
-8. Now we put the result in analysis5.csv representing each listing id comment and summary similarity to conclude expectation 
+3. Get all the listings id which are present both in listings.csv and reviews.csv
+4. Get all the words used in summary by the host for the common listings.
+5. Revome the non alpha words and stop words from the list.
+6. Get all the words used in reviews by the reviewer for the common listings.
+7. Remove the non alpha words and stop words from the list.
+8. Match the common words between the summary given by host and the review received from reviewer.
+9. Now we put the result in analysis5.csv representing each listing id comment and summary similarity to conclude expectation 
    vs reality.
-9. Then we read the anaylis5.csv and group the output based on neighburhood to see where expections and reality degree
+10.Then we read the anaylis5.csv and group the output based on neighburhood to see where expections and reality degree
    is better by taking the mean of degree of each neighbourhood.  
-10.Then we plot the graph for each location what degree of expectation was met.   
+11.Then we plot the graph for each location what degree of expectation was met.   
