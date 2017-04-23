@@ -55,3 +55,6 @@
 7. Match the common words between the summary given by host and the review received from reviewer.
 8. Now we put the result in analysis5.csv representing each listing id comment and summary similarity to conclude expectation 
    vs reality.
+9. Then we read the anaylis5.csv and group the output based on neighburhood to see where expections and reality degree
+   is better by taking the mean of degree of each neighbourhood.  
+10.Then we plot the graph for each location what degree of expectation was met.   
