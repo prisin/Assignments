@@ -1,5 +1,5 @@
 
-# Analysis 1
+# Analysis 1  
 1. Read the data from reviews.csv file stored in data folder and put it in a dataframe.
 2. Get all the comments from comment column and remove all the rows with no comments.
 3. Read each comment and take out words from them which are not stop words and contains only alphabets.
