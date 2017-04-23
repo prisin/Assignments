@@ -11,6 +11,7 @@
 8. If the count is greater than 0, the commnent has more postive words and the comment is positive.
 9. If the count is less than 0, the commnent has more negative words and the comment is negative.
 10.If the count is equal to 0, the comment is neutal.
+11.The result is displayed on analysis1.csv to show comment and its sentimental analysis. 
 
 
 # Analysis 2
@@ -18,15 +19,17 @@
 2. Get all the reviewer names from reviewer name column and remove all the rows with no name.
 3. Get all the listings of each reviewer and get the frequent used listing of each reviewer.
 4. Get the location which is most frequent used by reviewer who gave max reviews.
-5. Plot graph of top reviewers and their count.
+5. Put the ouput in analysis2.csv to get top reviwers and their most desired neighbourhood.
+6. Plot graph of top reviewers and their count.
 
 
 # Analysis 3
 1. Read the data from listings.csv file stored in data folder and put it in a dataframe.
 2. Convert all string price into float to calculate mean of price.
-3. Get the top 5 most frequent neighbourhood from the neighbourhood column.
+3. Get the top 5 most frequent neighbourhood from the neighbourhood column which had most listings.
 4. Get the count of each neighbourhood and plot it in graph to see the most populated neighbourhood.
 5. Get the mean price of each neighbourhood and plot it in graph and mean price near each neighbourhood.
+6. We represented the output in analysis3.csv of top neighbourhood and their mean price.
 
 
 # Analysis 4
@@ -37,6 +40,8 @@
 5. Plot the graph of all the listings mean price of each host.
 6. Plot the graph of all the listings mean ratings of each host.
 7. We concluded price matters for rating. When price is less there are chanches of good ratings.
+8. We represented the output in analysis4.csv of the top hosts and their mean price of their listings and rating of all 
+   their listings.
 
 
 # Analysis 5
@@ -48,4 +53,5 @@
 5. Get all the words used in reviews by the reviewer for the common listings.
 6. Remove the non alpha words and stop words from the list.
 7. Match the common words between the summary given by host and the review received from reviewer.
-8. Now we put the result in csv file representing each listing id comment and summary similarity.
+8. Now we put the result in analysis5.csv representing each listing id comment and summary similarity to conclude expectation 
+   vs reality.
